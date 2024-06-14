@@ -1,0 +1,158 @@
+.sidebar{
+    min-height: 100vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: #f0f4f989; */
+    background: linear-gradient(180deg, royalblue, red);
+    padding: 25px 15px;
+}
+
+.sidebar:hover{
+    /* background-image: linear-gradient(10deg,
+    rgba(245, 70, 66, 0.35),
+    rgba(8, 83, 156, 0.35)),
+    url('../../assets/scarlett_witch.jpg'); */
+    opacity: 1;
+    background-image: url(../../assets/marvel_sidebar2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(65, 105, 225, 0.2);
+    background-position: center;
+    
+    /* background-color: ; */
+    animation: fadeIn 0.5s;
+
+    .recent-entry{
+        color: aliceblue;
+
+    }
+
+    .new-chat{
+        background-color: white;
+        color: #282828;
+    }
+
+    .menu{
+        opacity: 0.8;
+        background-color: white;
+        border-radius: 50px;
+        padding: 2px;
+    }
+    
+}
+
+.sidebar img{
+    width: 20px;
+}
+
+.sidebar .menu{
+    width: 30px;
+    display: block;
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+.sidebar .menu:hover{
+    opacity: 1;
+    display: flex;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 50px;
+    background-position: center;
+    gap: 10px;
+    padding: 2px;
+}
+
+.sidebar .new-chat{
+    opacity: 0.5;
+    margin-top: 155px;
+    background-position: center;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    background-color: rgb(35, 33, 33);
+    border-radius: 50px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+.sidebar .new-chat:hover{
+    opacity: 0.8;
+    background-color: turquoise;
+    /* margin-left: 7%; */
+    border-radius: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+
+.sidebar .recent{
+    display: flex;
+    flex-direction: column;
+    animation: fadeIn 1.5s;
+}
+
+.sidebar .recent-title{
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.sidebar .recent-title:hover{
+    font-weight: bold;
+    color: antiquewhite;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.sidebar .recent-entry{
+    opacity: 1;
+    font-weight: bold;
+    display: flex;
+    align-items: start;
+    gap: 10px; 
+    padding: 10px;
+    padding-right: 40px;
+    border-radius: 50px;
+    color: #282828;
+    cursor: pointer;
+}
+
+.sidebar .recent-entry:hover{
+    background-color: whitesmoke;
+    color: black;
+    transition: 0.8s;
+}
+
+
+.sidebar .bottom{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: inherit;
+}
+
+
+
+.sidebar .bottom p:hover{
+    color: #282828;
+}
+
+.sidebar .bottom-item{
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .sidebar{
+        display: none;
+    }
+    
+}
