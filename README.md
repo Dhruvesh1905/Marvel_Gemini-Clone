@@ -8,6 +8,8 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
+
+
 # Marvel Edition - Gemini Clone
 
 This is the first time I have tried demonstrating the use of API's in projects. Grateful to be able to develop such an interesting project.
